@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+.navbar-brand img{
+    width: 400px;
+    height: 60px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link.active{
+    border-bottom: 4px solid rgb(148, 8, 148);
+}
+.nav-link:hover{
+    border-bottom: 4px solid rgb(148, 8, 148);
+}
+.nav-link{
+    align-items: center;
+    margin: 10px;
+}
+.bienvenida .bienvenida-contenedor a img{
+    width: 100%;
+    height: 65vh;
+}
+  
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenido-contenedor img{
+    width: 100%;
+}
+.atencion-cliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.atencion-cliente-contenedor{
+    background-position: top;
+    background-attachment: scroll;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-image: url(../Media/Servicios/atencion-cliente.jpg);
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.atencion-cliente-contenedor h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.atencion-cliente-contenedor h2 code{
+    color: blueviolet;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.atencion-cliente-contenedor table{
+    width: 50%;
+    padding: 2em;
+    height: 15vh;
+}
+.atencion-cliente-contenedor table td{
+    padding: 1em;
+}
+.atencion-cliente-contenedor input{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.atencion-cliente-contenedor table td a{
+    color: #fff;
+    border: 1px solid green;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 1em 0;
+    transition: .5s;
+}
+.atencion-cliente-contenedor table td a:hover{
+    background-color: rgb(15, 189, 15);
+    transition: .5s;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(192, 192, 192);
+}
+.footer-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-head{
+    padding: 2em 0;
+}
+.footer-head a img{
+    width: 400px;
+    height: 60px;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2em;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+.footer-body a img{
+    width: 30px;
+    height: 30px;
+    transition: .7s;
+}
+.footer-body a img:hover{
+    transition: .7s;
+    transform: scale(1.2 , 1.2);
+}
+.footer-footer{
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+    padding: 1.5em;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    padding: 2em;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.footer-nav ul li a:hover{
+    border-bottom: 2px solid rgb(148, 8, 148);
+}
+.footer-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    border-top: 1px solid rgb(192, 192, 192);
+    padding: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contenido-historia{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1em 0;
+}
+.footer-contenido-numeros{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.footer-contenido-numeros p{
+    color: rgb(126, 10, 126);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-contenido-numeros h2{
+    font-size: 22px;
+}
+
+.sucursal-virtual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    margin: 2em 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sucursal-virtual-contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    width: 80%;
+    border-radius: 10%;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 20px rgb(48, 48, 48);
+}
+.sucursal-virtual-contenedor .logo-sucursal{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    border: none;
+}
+.sucursal-virtual-contenedor .logo-sucursal img{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+}
+.formulario-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulario-usuario-contenedor{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.formulario a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.turnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.turnos img{
+    width: 90%;
+    height: 70%;
+}
